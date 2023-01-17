@@ -11,7 +11,7 @@ This is the main document for the CIM 103 course at University of Miami, Spring 
 | ----------------------------------------------------------------- | --------------- |
 | [Vinicius Sueiro](https://com.miami.edu/profile/vinicius-sueiro/) | vss43@miami.edu |
 
-Last updated on Jan 16, 2023. This document is subject to change.
+This document is subject to change.
 
 ## About the Course
 
