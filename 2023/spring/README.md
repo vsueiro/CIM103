@@ -57,20 +57,6 @@ By the end of each project, students will share their **website** with the class
 
 In order to present, students need to sign-up for 5-min **presentation slots** (instructions will be provided via Blackboard).
 
-#### Peer Feedback
-
-During presentation days, each student must <span style="color: DeepPink">provide feedback to (→)</span> at least 1 classmate, as illustrated below:
-
-<img src="../../media/peer-feedback.gif" alt="Animated diagram" width="226">
-
-##### How does it work?
-
-After one student presents, the next student provides feedback.
-
-After the _last_ student presents, the _first_ student provides feedback.
-
-In essense, your feedback should be about your classmate’s project idea (conceptual) or its execution (technical), in the form of compliments, questions, or suggestions.
-
 ### Course Content
 
 The following tables describe what you are expected to do before class (“Preparation”), what we will do during class (“Content”), and what we have done during class (“Materials”).
@@ -164,7 +150,7 @@ I reserve the right to adjust the final grade according to class participation, 
 
 Late submissions via Blackboard <em>will</em> be accepted during the semester, but with a **10% grade deduction**.
 
-In case students miss an in-class presentation, they can still submit a video recording via Blackboard, also with a **10% grade deduction**. However, the peer feedback points will be lost.
+In case students miss an in-class presentation, they can still submit a video recording via Blackboard, also with a **10% grade deduction**.
 
 ### Grading Scale
 
