@@ -15,7 +15,7 @@ This document is subject to change.
 
 ## About the Course
 
-This course is a practical introduction to web design. Students will learn how to produce websites using the latest web practices and techniques. Throughout each unit of the course, students will learn the skills to plan, layout, and build websites using HTML, CSS, and Javascript. Students will also learn how to optimize and market their websites.
+This course is a practical introduction to web design. Students will learn how to produce websites using the latest web practices and techniques. Throughout each unit of the course, students will learn the skills to plan, layout, and build websites using HTML, CSS, and JavaScript. Students will also learn how to optimize and market their websites.
 
 ### Course Goals
 
