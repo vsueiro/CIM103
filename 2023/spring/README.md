@@ -53,7 +53,7 @@ We will not learn everything at once. Instead, this course is split into a few s
 
 #### Presentation day
 
-For each project, students will share their initial **planning** and their final **website** with classmates. Since there are 2 projects, this means that each student will present their work 4&times; during the semester.
+By the end of each project, students will share their **website** with the class. Since there are 3 projects, this means that each student will present their work 3&times; during the semester.
 
 In order to present, students need to sign-up for 5-min **presentation slots** (instructions will be provided via Blackboard).
 
