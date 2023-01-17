@@ -103,55 +103,52 @@ I reserve the right to adjust the final grade according to class participation, 
         <td>Introduction</td>
         <td>10 Points</td>
         <td>Expectations</td>
-        <td>Submission</td>
+        <td>Submit answers</td>
         <td>10</td>
     </tr>
     <tr>
-        <td rowspan=5>Project: Profile</td>
-        <td rowspan=5>40 Points</td>
-        <td rowspan=2>Planning</td>
-        <td>Presentation</td>
-        <td>10</td>
-    </tr>
-    <tr>
-        <td>Peer Feedback</td>
-        <td>5</td>
-    </tr>
-    <tr>
+        <td rowspan=3>Project: Profile</td>
+        <td rowspan=3>25 Points</td>
         <td rowspan=3>Website</td>
-        <td>Presentation</td>
+        <td>Submit planning</td>
         <td>10</td>
     </tr>
     <tr>
-        <td>Peer Feedback</td>
+        <td>Present to class</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Submit website</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Submission</td>
-        <td>10</td>
-    </tr>
-    <tr>
-        <td rowspan=5>Project: Quiz</td>
-        <td rowspan=5>40 Points</td>
-        <td rowspan=2>Planning</td>
-        <td>Presentation</td>
-        <td>10</td>
-    </tr>
-    <tr>
-        <td>Peer Feedback</td>
-        <td>5</td>
-    </tr>
-    <tr>
+        <td rowspan=3>Project: Clone</td>
+        <td rowspan=3>25 Points</td>
         <td rowspan=3>Website</td>
-        <td>Presentation</td>
+        <td>Submit planning</td>
         <td>10</td>
     </tr>
     <tr>
-        <td>Peer Feedback</td>
+        <td>Present to class</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Submit website</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Submission</td>
+        <td rowspan=3>Project: Final</td>
+        <td rowspan=3>30 Points</td>
+        <td rowspan=3>Website</td>
+        <td>Submit planning</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Present to class</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Submit website</td>
         <td>10</td>
     </tr>
     <tr>
