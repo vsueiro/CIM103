@@ -126,11 +126,11 @@ I reserve the right to adjust the final grade according to class participation, 
         <td rowspan=3>Project: Final</td>
         <td rowspan=3>30 Points</td>
         <td rowspan=3>Website</td>
-        <td>Submit planning</td>
+        <td>Present planning</td>
         <td>10</td>
     </tr>
     <tr>
-        <td>Present to class</td>
+        <td>Present website</td>
         <td>10</td>
     </tr>
     <tr>
