@@ -44,17 +44,18 @@ In order to reach the desired goals, students will learn concepts and techniques
 
 - 🧱 [HTML](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) (to define structure and content)
 - 🎨 [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics) (to apply visual styles)
-- ✨ [JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) (to track usage)
+- ✨ [JS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) (to make it interactive & track usage)
 
 This course also covers tools that help us organize and scale up our projects:
 
 - [CodeSandbox](https://codesandbox.io/) (to write code without installing stuff)
-- [Vercel](https://vercel.com/) (to easily publish your website)
 
 Optionally:
 
+- [Visual Studio Code](https://code.visualstudio.com/) (to write code and preview it on your computer)
 - [Webflow](https://webflow.com/) (to build sites without writing code)
-- [Google Domains](https://domains.google/) (to rent a friendly name, like “example.com”)
+- [Squarespace Domains](https://domains.squarespace.com/) (to rent a friendly name, like “example.com”)
+- [GitHub Desktop + GitHub Pages](https://code.visualstudio.com/) (to store and deploy your website)
 
 All tools are free (or provide a free version), except Google Domains. 💸
 
