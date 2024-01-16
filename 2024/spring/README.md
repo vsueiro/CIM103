@@ -66,9 +66,24 @@ We will not learn everything at once. Instead, this course is split into a few s
 
 #### Presentation day
 
-By the end of each project, students will share their **website** with the class. Since there are 3 projects, each student will present their work 3&times; during the semester.
+For each project, students will share their final **website** with the whole class. For the third project, students will also present their **planning** beforehand, so they can to get early feedback on their idea. In order to present, students need to sign-up for 5-min **presentation slots** (instructions will be provided via Blackboard).
 
-In order to present, students need to sign-up for 5-min **presentation slots** (instructions will be provided via Blackboard).
+#### Peer Feedback
+
+During presentation days, each student must <span style="color: DeepPink">provide feedback to (→)</span> at least 1 classmate, as illustrated below:
+
+<img src="../../media/peer-feedback.gif" alt="Animated diagram" width="226" class="screen-only">
+<img src="../../media/peer-feedback-print.png" alt="Animated diagram" width="226" class="print-only">
+
+##### How does it work?
+
+After one student presents, the next student provides feedback.
+
+After the _last_ student presents, the _first_ student provides feedback.
+
+_In other words: right before you present, you provide feedback for the student that has just presented._
+
+Your feedback should be about your classmate’s project idea (conceptual) or its execution (technical), in the form of compliments, questions, or suggestions.
 
 ### Course Content
 
