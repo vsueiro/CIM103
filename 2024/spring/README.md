@@ -90,32 +90,29 @@ I reserve the right to adjust the final grade according to class participation, 
 
 ### Grading Breakdown
 
-| Step                        | Weight    | Assignment      | Task          | Points |
-| --------------------------- | --------- | --------------- | ------------- | ------ |
-| Introduction                | 10 Points | Expectations    | Submission    | 5      |
-| \*                          | \*        | Critique        | Submission    | 5      |
-| Project 1: Personal Profile | 20 Points | Planning        | Presentation  | 5      |
-| \*                          | \*        | \*              | Peer Feedback | 2.5    |
-| \*                          | \*        | Website         | Presentation  | 5      |
-| \*                          | \*        | \*              | Peer Feedback | 2.5    |
-| \*                          | \*        | \*              | Submission    | 5      |
-| Project 2: Clone            | 30 Points | Planning        | Presentation  | 5      |
-| \*                          | \*        | \*              | Peer Feedback | 5      |
-| \*                          | \*        | Website         | Presentation  | 10     |
-| \*                          | \*        | \*              | Peer Feedback | 5      |
-| \*                          | \*        | \*              | Submission    | 5      |
-| Project 3: Web Experiment   | 30 Points | Planning        | Presentation  | 5      |
-| \*                          | \*        | \*              | Peer Feedback | 5      |
-| \*                          | \*        | Website         | Presentation  | 10     |
-| \*                          | \*        | \*              | Peer Feedback | 5      |
-| \*                          | \*        | \*              | Submission    | 5      |
-| Final Exam                  | 10 Points | Self-reflection | Submission    | 10     |
+| Step                                      | Weight    | Assignment      | Task            | Points |
+| ----------------------------------------- | --------- | --------------- | --------------- | ------ |
+| Introduction                              | 10 Points | Expectations    | Submission      | 5      |
+| \*                                        | \*        | Critique        | Submission      | 5      |
+| Inspiration Days                          | 10 Points | Analyze         | Submission (8×) | 1.25   |
+| Project 1: Customize a Profile Page       | 20 Points | Website         | Presentation    | 10     |
+| \*                                        | \*        | \*              | Peer Feedback   | 5      |
+| \*                                        | \*        | \*              | Submission      | 5      |
+| Project 2: Clone an Interesting Interface | 20 Points | Website         | Presentation    | 10     |
+| \*                                        | \*        | \*              | Peer Feedback   | 5      |
+| \*                                        | \*        | \*              | Submission      | 5      |
+| Project 3: Create a Whole Website         | 30 Points | Planning        | Presentation    | 5      |
+| \*                                        | \*        | \*              | Peer Feedback   | 5      |
+| \*                                        | \*        | Website         | Presentation    | 10     |
+| \*                                        | \*        | \*              | Peer Feedback   | 5      |
+| \*                                        | \*        | \*              | Submission      | 5      |
+| Final Exam                                | 10 Points | Self-reflection | Submission      | 10     |
 
 #### Missed a task?
 
 Late submissions via Blackboard <em>will</em> be accepted during the semester, but with a **10% grade deduction**.
 
-In case students miss an in-class presentation, they can still submit a video recording via Blackboard, also with a **10% grade deduction**.
+In case students miss an in-class presentation, they can still submit a video recording via Blackboard, also with a **10% grade deduction**. However, the peer feedback points will be lost.
 
 ### Grading Scale
 
