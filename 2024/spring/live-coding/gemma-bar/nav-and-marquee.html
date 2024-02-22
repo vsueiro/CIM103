@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemma bar</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background: #1d1c1e;
+        color: #fbead2;
+        font-family: Poppins, sans-serif;
+        margin: 0;
+      }
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        max-width: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right: 1px solid #fbead2;
+        padding: 20px;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .social-icons {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .rotated-name {
+        white-space: nowrap;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        rotate: -90deg;
+        text-transform: uppercase;
+      }
+      @keyframes roll {
+        from {
+          translate: 0;
+        }
+        to {
+          translate: -25%;
+        }
+      }
+      .marquee {
+        background: #fd2600;
+        font-size: 32px;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      .marquee > div {
+        width: fit-content;
+        animation: roll 6s infinite linear;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        padding-left: 90px;
+      }
+      nav {
+        height: 90px;
+        display: flex;
+      }
+      nav a {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #fbead2;
+      }
+      nav a + a {
+        border-left: 1px solid #fbead2;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <img src="diamond.svg" alt="Diamond" />
+      </a>
+      <a href="#" class="rotated-name"> A Bar Called Gemma </a>
+
+      <div class="social-icons">
+        <a href="#">
+          <img src="instagram.svg" alt="" />
+        </a>
+        <a href="#">
+          <img src="facebook.svg" alt="" />
+        </a>
+      </div>
+    </header>
+    <main>
+      <nav>
+        <a href="">Book</a>
+        <a href="">Menu</a>
+        <a href="">Catering</a>
+        <a href="">Contact</a>
+      </nav>
+      <div class="marquee">
+        <div>
+          <span>A very long text goes here ⬩ </span>
+          <span>A very long text goes here ⬩ </span>
+          <span>A very long text goes here ⬩ </span>
+          <span>A very long text goes here ⬩ </span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
