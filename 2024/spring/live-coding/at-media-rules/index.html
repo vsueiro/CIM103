@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@Media Rules</title>
+    <style>
+      body {
+        background: white;
+        color: black;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: black;
+          color: white;
+        }
+      }
+
+      @keyframes pulse {
+        0% {
+          scale: 1;
+        }
+        50% {
+          scale: 1.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+
+      .circle {
+        width: 100px;
+        aspect-ratio: 1;
+        background-color: gray;
+        border-radius: 50%;
+        animation: pulse 2s infinite;
+        margin: 100px;
+        position: relative;
+      }
+
+      @media (prefers-reduced-motion) {
+        .circle {
+          animation: none;
+        }
+      }
+
+      .value::before {
+        content: "USD ";
+        opacity: 0.5;
+      }
+
+      .value::after {
+        content: ".00";
+      }
+
+      .circle::before,
+      .circle::after {
+        content: "";
+        display: block;
+        width: 60%;
+        aspect-ratio: 1;
+        background: gray;
+        border-radius: 50%;
+        position: absolute;
+        top: -25%;
+        left: -25%;
+      }
+
+      .circle::after {
+        left: initial;
+        right: -25%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is my beautiful website</h1>
+
+    <div class="circle"></div>
+
+    <div class="values">
+      <div class="value">1</div>
+      <div class="value">2</div>
+      <div class="value">3</div>
+      <div class="value">4</div>
+      <div class="value">5</div>
+      <div class="value">6</div>
+      <div class="value">7</div>
+      <div class="value">8</div>
+      <div class="value">9</div>
+      <div class="value">10</div>
+    </div>
+  </body>
+</html>
