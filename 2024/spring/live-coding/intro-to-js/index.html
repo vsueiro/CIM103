@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to JavaScript</title>
+    <style>
+      /* h1 {
+        display: none;
+      } */
+    </style>
+  </head>
+  <body>
+    <button id="hideButton">Toggle</button>
+    <h1 id="myTitle">Now you see me</h1>
+
+    <script>
+      function hide() {
+        if (myTitle.textContent === "Now you see me") {
+          myTitle.textContent = "Now you don't";
+        } else {
+          myTitle.textContent = "Now you see me";
+        }
+      }
+
+      // When button is clicked:
+      hideButton.onclick = hide;
+    </script>
+  </body>
+</html>
