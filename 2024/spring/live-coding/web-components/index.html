@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper Web Component</title>
+    <style>
+      img {
+        max-width: 100%;
+        outline: 1px solid red;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+    <!-- Import Swiper Element -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <!-- Import Shoelace -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/cdn/themes/light.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/cdn/shoelace-autoloader.js"
+    ></script>
+  </head>
+  <body>
+    <h1>Carousel Demos</h1>
+    <h2>Swiper</h2>
+    <!-- Swiper Web Component -->
+    <swiper-container slides-per-view="1" navigation="true">
+      <swiper-slide>
+        <img src="https://placehold.co/600x400" alt="Abc" />
+      </swiper-slide>
+      <swiper-slide>
+        <img src="https://placehold.co/600x400" alt="Abc" />
+      </swiper-slide>
+      <swiper-slide>
+        <img src="https://placehold.co/600x400" alt="Abc" />
+      </swiper-slide>
+    </swiper-container>
+
+    <h2>Shoelace</h2>
+    <!-- Shoelace Web Component -->
+    <sl-carousel navigation mouse-dragging loop>
+      <sl-carousel-item>
+        <img src="https://placehold.co/600x400" alt="Abc" />
+      </sl-carousel-item>
+      <sl-carousel-item>
+        <img src="https://placehold.co/600x400" alt="Abc" />
+      </sl-carousel-item>
+      <sl-carousel-item>
+        <img src="https://placehold.co/600x400" alt="Abc" />
+      </sl-carousel-item>
+    </sl-carousel>
+  </body>
+</html>
