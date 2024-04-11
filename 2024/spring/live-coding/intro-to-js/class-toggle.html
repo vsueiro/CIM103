@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Toggle with JavaScript</title>
+    <style>
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      nav {
+        background: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        translate: -100%;
+        z-index: 1;
+        transition: all 1s;
+      }
+
+      button {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+      }
+
+      .backdrop {
+        background: black;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 1s;
+      }
+
+      .menu-open .backdrop {
+        opacity: 0.4;
+      }
+
+      .menu-open nav {
+        background: black;
+        translate: 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="document.body.classList.toggle('menu-open')">Menu</button>
+    <div class="backdrop"></div>
+    <nav>
+      <a href>Work</a>
+      <a href>About</a>
+      <a href>Contact</a>
+    </nav>
+  </body>
+</html>
