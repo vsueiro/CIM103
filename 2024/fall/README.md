@@ -48,16 +48,16 @@ In order to reach the desired goals, students will learn concepts and techniques
 
 This course also covers tools that help us organize and scale up our projects:
 
-- [CodeSandbox](https://codesandbox.io/) (to write code without installing stuff)
+- [Visual Studio Code](https://code.visualstudio.com/) (to write code and preview it on your computer)
+- [GitHub](https://github.com/) + [GitHub Desktop](https://github.com/apps/desktop) + [GitHub Pages](https://pages.github.com/) (to store and deploy your website)
 
 Optionally:
 
-- [Visual Studio Code](https://code.visualstudio.com/) (to write code and preview it on your computer)
+- [CodeSandbox](https://codesandbox.io/) (to write code without installing stuff)
 - [Webflow](https://webflow.com/) (to build sites without writing code)
 - [Squarespace Domains](https://domains.squarespace.com/) (to rent a friendly name, like “example.com”)
-- [GitHub Desktop + GitHub Pages](https://code.visualstudio.com/) (to store and deploy your website)
 
-All tools are free (or provide a free version), except Google Domains. 💸
+All tools are free (or provide a free version), except the Squarespace Domains. 💸
 
 ### Course Timeline
 
