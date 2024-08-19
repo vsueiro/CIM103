@@ -55,7 +55,7 @@ Optionally:
 
 - [CodeSandbox](https://codesandbox.io/) (to write code without installing stuff)
 - [Webflow](https://webflow.com/) (to build sites without writing code)
-- [Squarespace Domains](https://domains.squarespace.com/) (to rent a friendly name, like “example.com”)
+- [Squarespace Domains](https://domains.squarespace.com/) or similar (to rent a friendly name, like “example.com”)
 
 All tools are free (or provide a free version), except the Squarespace Domains. 💸
 
