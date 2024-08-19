@@ -110,7 +110,7 @@ I reserve the right to adjust the final grade according to class participation, 
 | ----------------------------------------- | --------- | --------------- | --------------- | ------ |
 | Introduction                              | 10 Points | Expectations    | Submission      | 5      |
 | \*                                        | \*        | Critique        | Submission      | 5      |
-| Inspiration Days                          | 10 Points | Analyze         | Submission (8×) | 1.25   |
+| Inspiration Days                          | 10 Points | Analyze         | Submission (5×) | 2      |
 | Project 1: Customize a Profile Page       | 20 Points | Website         | Presentation    | 10     |
 | \*                                        | \*        | \*              | Peer Feedback   | 5      |
 | \*                                        | \*        | \*              | Submission      | 5      |
