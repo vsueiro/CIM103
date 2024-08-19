@@ -57,7 +57,7 @@ Optionally:
 - [Webflow](https://webflow.com/) (to build sites without writing code)
 - [Squarespace Domains](https://domains.squarespace.com/) or similar (to rent a friendly name, like “example.com”)
 
-All tools are free (or provide a free version), except the Squarespace Domains. 💸
+All tools are free (or provide a free version), except Squarespace Domains. 💸
 
 ### Course Timeline
 
