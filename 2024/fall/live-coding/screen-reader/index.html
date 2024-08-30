@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Screen Reader Demo</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        background: lavender;
+        color: indigo;
+        font-size: 150%;
+      }
+
+      span[title] {
+        cursor: help;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Words</h1>
+    <p>
+      <span lang="en" title="A present or given item (English)">Gift</span>
+      <span lang="de" title="Poison (German)">Gift</span>
+    </p>
+    <p>
+      <span lang="en" title="A professional cook (English)">Chef</span>
+      <span lang="de" title="A boss or chief (German)">Chef</span>
+    </p>
+    <p>
+      <span lang="en" title="Physical suffering (English)">Pain</span>
+      <span lang="fr" title="Bread (French)">Pain</span>
+    </p>
+    <p>
+      <span lang="en" title="Relating to ancient Rome (English)">Roman</span>
+      <span lang="fr" title="A novel (French)">Roman</span>
+    </p>
+    <p>
+      <span lang="en" title="A cooking utensil (English)">Pan</span>
+      <span lang="es" title="Bread (Spanish)">Pan</span>
+    </p>
+    <p>
+      <span lang="en" title="A round metal piece (English)">Coin</span>
+      <span lang="fr" title="A corner (French)">Coin</span>
+    </p>
+    <p>
+      <span lang="en" title="A food made from wheat (English)">Pasta</span>
+      <span lang="pt" title="Folder or briefcase (Portuguese)">Pasta</span>
+    </p>
+    <p>
+      <span lang="en" title="Collected metrics (English)">Data</span>
+      <span lang="pt" title="Calendar date (Portuguese)">Data</span>
+    </p>
+
+    <script>
+      const spans = document.querySelectorAll("span[title]");
+
+      for (let span of spans) {
+        span.onclick = () => {
+          alert(span.title);
+        };
+      }
+    </script>
+  </body>
+</html>
