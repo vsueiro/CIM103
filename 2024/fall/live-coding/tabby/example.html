@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabby</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-size: 32px;
+        color: GhostWhite;
+        font-family: "Outfit", sans-serif;
+      }
+
+      section {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      header {
+        pointer-events: none;
+        display: grid;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        place-items: center;
+        z-index: 1;
+      }
+
+      nav {
+        display: flex;
+        width: fit-content;
+        gap: 32px;
+        padding: 16px 32px;
+        font-variant-caps: all-small-caps;
+      }
+
+      a {
+        pointer-events: all;
+        color: inherit;
+        text-decoration: none;
+      }
+
+      img {
+        display: flex;
+        mix-blend-mode: hard-light;
+        aspect-ratio: 1;
+        width: 100%;
+        border-radius: 50%;
+        transition: rotate 1s;
+      }
+
+      img:hover {
+        rotate: 10deg;
+      }
+
+      .content {
+        width: 90%;
+        max-width: 800px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+        gap: 32px;
+      }
+
+      @keyframes updown {
+        from {
+          translate: 0 -10%;
+        }
+        to {
+          translate: 0 10%;
+        }
+      }
+
+      #pets {
+        background: Plum;
+      }
+
+      #pets a {
+        display: block;
+        animation: updown 1s infinite;
+        animation-direction: alternate;
+      }
+
+      #cat {
+        background: Tomato;
+      }
+
+      #dog {
+        background: Indigo;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#pets">Pets</a>
+        <a href="#cat">Cat</a>
+        <a href="#dog">Dog</a>
+      </nav>
+    </header>
+    <main>
+      <section id="pets">
+        <div class="content">
+          <div class="left" style="text-align: center">
+            <h1>My Pets</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit ipsa
+              expedita maxime
+            </p>
+            <a href="#cat">⬇</a>
+          </div>
+        </div>
+      </section>
+      <section id="cat">
+        <div class="content">
+          <div class="left">
+            <h2>My Cat</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit ipsa
+              expedita maxime
+            </p>
+          </div>
+          <div class="right">
+            <img src="https://placecats.com/400/400" />
+          </div>
+        </div>
+      </section>
+      <section id="dog">
+        <div class="content">
+          <div class="left">
+            <h2>My Dog</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit ipsa
+              expedita maxime
+            </p>
+          </div>
+          <div class="right">
+            <img src="https://place.dog/400/400" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
