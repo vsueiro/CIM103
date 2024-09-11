@@ -97,6 +97,20 @@
       #dog {
         background: Indigo;
       }
+
+      #cursor {
+        width: 32px;
+        height: 32px;
+        background: DeepPink;
+        position: fixed;
+        top: 0;
+        left: 0;
+        mix-blend-mode: color-dodge;
+        translate: -50% -50%;
+        border-radius: 50%;
+        z-index: 2;
+        pointer-events: none;
+      }
     </style>
   </head>
   <body>
@@ -149,5 +163,16 @@
         </div>
       </section>
     </main>
+
+    <div id="cursor"></div>
+
+    <script>
+      function moveCursor(event) {
+        cursor.style.left = event.x + "px";
+        cursor.style.top = event.y + "px";
+      }
+
+      window.onmousemove = moveCursor;
+    </script>
   </body>
 </html>
