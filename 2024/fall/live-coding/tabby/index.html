@@ -5,32 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tabby</title>
     <style>
-      html,
-      body {
-        height: 100%;
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+      html {
+        scroll-behavior: smooth;
       }
 
       body {
         margin: 0;
+        color: white;
+        font-family: Outfit, sans-serif;
       }
 
       section {
-        height: 100%;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
       }
 
       .content {
-        border: 1px solid red;
-        width: 50%;
         height: fit-content;
         display: flex;
         align-items: center;
       }
 
       section:nth-child(1) {
-        background: Lavender;
+        background: Plum;
       }
 
       section:nth-child(2) {
@@ -40,22 +41,101 @@
       section:nth-child(3) {
         background: Indigo;
       }
+
+      nav {
+        position: fixed;
+        top: 16px;
+        left: 50%;
+        translate: -50%;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 16px;
+      }
+
+      @keyframes move {
+        from {
+          translate: 0 -8px;
+        }
+        to {
+          translate: 0 8px;
+        }
+      }
+
+      #arrow {
+        translate: 0 0;
+        animation: move 1s infinite;
+        animation-direction: alternate;
+      }
+
+      #pets {
+        text-align: center;
+      }
+
+      #cursor {
+        width: 48px;
+        height: 48px;
+        background: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        translate: -50% -50%;
+        border-radius: 24px;
+        mix-blend-mode: difference;
+      }
     </style>
   </head>
   <body>
-    <section>
-      <div class="content">
-        <div class="left">
-          <h2>Meet your first Tabby.</h2>
-          <p>
-            Tabby Cat is a browser extension that gives you a new cat with a
-            special name in every new tab.
-          </p>
+    <nav>
+      <a href="#pets">Pets</a>
+      <a href="#cat">Cat</a>
+      <a href="#dog">Dog</a>
+    </nav>
+
+    <main>
+      <section id="pets">
+        <div class="content">
+          <div class="left">
+            <h2>My Pets</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p id="arrow">⬇</p>
+          </div>
         </div>
-        <div class="right">[image here]</div>
-      </div>
-    </section>
-    <section>B</section>
-    <section>C</section>
+      </section>
+
+      <section id="cat">
+        <div class="content">
+          <div class="left">
+            <h2>My Cat</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          </div>
+          <div class="right">[img]</div>
+        </div>
+      </section>
+
+      <section id="dog">
+        <div class="content">
+          <div class="left">
+            <h2>My Dog</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          </div>
+          <div class="right">[img]</div>
+        </div>
+      </section>
+    </main>
+
+    <div id="cursor"></div>
+
+    <script>
+      function move(event) {
+        cursor.style.left = event.x + "px";
+        cursor.style.top = event.y + "px";
+      }
+
+      window.onmousemove = move;
+    </script>
   </body>
 </html>
