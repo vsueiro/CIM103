@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spoiler</title>
+    <style>
+      span {
+        position: relative;
+      }
+
+      span::after {
+        content: "";
+        background: black;
+        position: absolute;
+        inset: 0;
+        transition: all 0.5s;
+        transform-origin: left;
+      }
+
+      span:hover::after {
+        /* background: transparent; */
+        scale: 0 1;
+      }
+    </style>
+  </head>
+  <body>
+    <p><span>Aerith’s death</span> was kinda tragic</p>
+  </body>
+</html>
