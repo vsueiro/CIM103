@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        font-size: 48px;
+        background: lavender;
+      }
+
+      button {
+        all: unset;
+        position: fixed;
+        top: 24px;
+        left: 24px;
+        z-index: 1;
+        background: DeepPink;
+        padding: 16px 32px;
+        border-radius: 999px;
+        color: Lavender;
+      }
+
+      a {
+        text-decoration: none;
+        color: lavender;
+      }
+
+      nav {
+        position: fixed;
+        padding: 144px 24px 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 300px;
+        background: Indigo;
+        z-index: 0;
+        transition: all 0.5s;
+        display: flex;
+        flex-direction: column;
+
+        /* Push it off scren */
+        translate: -100%;
+      }
+
+      .om nav {
+        translate: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="document.body.classList.toggle('om')">Menu</button>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Work</a>
+      <a href="#">Resume</a>
+    </nav>
+  </body>
+</html>
