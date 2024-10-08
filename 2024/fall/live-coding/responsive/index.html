@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+      :root {
+        --duration: 1s;
+      }
+
+      body {
+        background: HotPink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all var(--duration);
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .eye {
+        width: 100px;
+        height: 100px;
+        background: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all var(--duration);
+      }
+
+      .eye::after {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 50%;
+        background-color: Indigo;
+        border-radius: 50%;
+        transition: all var(--duration);
+      }
+
+      @media (max-width: 600px) {
+        body {
+          background: Indigo;
+          rotate: 180deg;
+        }
+
+        .eye {
+          background: Turquoise;
+        }
+
+        .eye::after {
+          scale: 0.25 1;
+        }
+      }
+
+      @media (prefers-reduced-motion) {
+        :root {
+          --duration: 0s;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="eye"></div>
+    <div class="eye"></div>
+  </body>
+</html>
