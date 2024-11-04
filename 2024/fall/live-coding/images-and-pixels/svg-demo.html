@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Demo</title>
+    <style>
+      body {
+        background: Lavender;
+        color: Indigo;
+      }
+
+      img {
+        image-rendering: pixelated;
+      }
+
+      rect,
+      circle,
+      path {
+        fill: currentColor;
+        transition: all 0.5s;
+
+        &:hover {
+          fill: DeepPink;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>SVG is nice :)</h1>
+    <svg
+      width="480"
+      height="480"
+      viewBox="0 0 480 480"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="240" height="240" />
+      <circle cx="360" cy="120" r="120" />
+      <circle cx="120" cy="360" r="120" />
+      <path
+        d="M434.612 269.004C451.332 218.753 372.094 239.144 284.86 289.396C266.929 299.349 233.102 330.908 241.244 377.518C251.421 435.781 328.477 457.629 408.442 477.293C488.406 496.957 490.587 403.736 428.069 383.344C365.552 362.953 417.892 319.256 434.612 269.004Z"
+      />
+    </svg>
+
+    <img src="shapes.svg" alt="" />
+    <br />
+    <img src="shapes-1x.png" alt="" style="filter: hue-rotate(-20deg)" />
+    <br />
+    <img src="shapes-2x.png" alt="" />
+
+    <script>
+      let elements = document.querySelectorAll("rect,circle,path");
+
+      elements.forEach((element) => {
+        element.onclick = () => {
+          element.style.fill = "blue";
+        };
+      });
+    </script>
+  </body>
+</html>
