@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="collectables">
+      <p><output>0</output> coins collected</p>
+
+      <div class="coin" data-page="about"></div>
+      <div class="coin" data-page="art"></div>
+      <div class="coin" data-page="games"></div>
+    </div>
+
+    <h1>Art</h1>
+    <nav>
+      <a href="./">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./art.html">Art</a>
+      <a href="./games.html">Games</a>
+    </nav>
+
+    <div
+      class="coin to-be-collected"
+      data-page="art"
+      onclick="collect(this)"
+    ></div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+#collectables {
+  background: RebeccaPurple;
+  border-radius: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  position: fixed;
+  right: 16px;
+  top: 16px;
+  width: fit-content;
+}
+
+#collectables p {
+  color: Lavender;
+  display: block;
+}
+
+.coin {
+  background: Indigo;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+
+.coin.collected,
+.coin.to-be-collected {
+  background: Gold;
+}
+
+.coin.to-be-collected:hover {
+  cursor: pointer;
+  outline: 4px solid Tomato;
+}
+
+.coin.to-be-collected[data-page="about"] {
+  position: absolute;
+  top: 50vh;
+  right: -16px;
+}
+
+.coin.to-be-collected[data-page="art"] {
+  position: absolute;
+  top: 150vh;
+  left: 32px;
+}
